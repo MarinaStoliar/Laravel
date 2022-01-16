@@ -1,0 +1,57 @@
+.framework {
+    display: flex;
+    justify-content: space-between;
+    height: 385px;
+    margin-bottom: 140px;
+    .complex {
+        display: flex;
+        flex-direction: column;
+        ul {
+            list-style: none;
+            h3{
+                font-size: 22px;
+                line-height: 1.5;
+                color: $violet;
+                font-weight: $fwn;
+                font-family: $font-family;
+                width: 200px;
+                padding: 20px 0;
+            }
+            p {
+                font-family: $font-family;
+                font-weight: $fwg;
+                font-size: $fs16;
+                line-height: 1.6;
+                color: $mixgrey;
+                max-width: 300px;
+                padding-bottom: 120px;
+            }
+            .btn_contacts{
+                font-family: $font-family;
+                text-decoration: none;
+                font-weight: $fwn;
+                font-size: $fs16;
+                line-height: 1.4;
+                border: 2px solid #EBEAED;
+                box-sizing: border-box;
+                border-radius: 100px;
+                color: $violet;
+                padding: 13px 38px;
+            }
+        }
+    }
+    .play{
+        position: relative;
+        height: 385px;
+        width: 690px;
+        .img_second{
+            position: absolute;
+            &.pos2{
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+

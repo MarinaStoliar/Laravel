@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: $container;
+    margin: 0 auto;
+}
+.body{
+    background-color: $white;
+}
+
+h4{
+    @include element-title(14px, 2, $grey, $fwi, $font-family, 0.45em, center);
+}
+h2{
+    @include element-title(52px, 1, $colorh, $fwn, $font-family, 0, center);
+}
+.goal_list{
+    h3{
+        @include element-title(36px, 0.8, $black, $fwi, $font-family, 0, center);
+    }
+}
+.testmonials{
+    margin-bottom: 100px;
+}

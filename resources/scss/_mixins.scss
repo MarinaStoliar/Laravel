@@ -1,0 +1,9 @@
+@mixin element-title($fz, $lh, $color, $fw, $ff, $ls, $ta) {
+    font-size: $fz;
+    line-height: $lh;
+    color: $color;
+    font-weight: $fw;
+    font-family: $ff;
+    letter-spacing: $ls;
+    text-align: $ta;
+}

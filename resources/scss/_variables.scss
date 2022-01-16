@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Ageo';
+    src: local('Ageo Medium'), local('Ageo-Medium'),
+    url('../fonts/Ageo-Medium/Ageo-Medium.ttf') format('woff2'),
+    url('../fonts/Ageo-Medium/Ageo-Medium.woff') format('woff'),
+    url('../fonts/Ageo-Medium/Ageo-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ageo';
+    src: local('Ageo Bold Italic'), local('Ageo-Bold-Italic'),
+    url('../fonts/Ageo-BoldItalic/Ageo-BoldItalic.woff2') format('woff2'),
+    url('../fonts/Ageo-BoldItalic/Ageo-BoldItalic.woff') format('woff'),
+    url('../fonts/Ageo-BoldItalic/Ageo-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Ageo';
+    src: local('Ageo Extra Bold'), local('Ageo-Extra-Bold'),
+    url('../fonts/Ageo-ExtraBold/Ageo-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Ageo-ExtraBold/Ageo-ExtraBold.woff') format('woff'),
+    url('../fonts/Ageo-ExtraBold/Ageo-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: oblique;
+}
+@font-face {
+    font-family: 'Ageo';
+    src: local('Ageo Regular'), local('Ageo-Regular'),
+    url('../fonts/Ageo-Regular/Ageo-Regular.woff2') format('woff2'),
+    url('../fonts/Ageo-Regular/Ageo-Regular.woff') format('woff'),
+    url('../fonts/Ageo-Regular/Ageo-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*variables*/
+$font-family: 'Ageo';
+$fwn: 500;
+$fwi: 700;
+$fwo: 800;
+$fwg: 400;
+
+/*colors*/
+$white: #FFFFFF;
+$colorh: #0B1B35;
+$black:#000000;
+$orange: #FF6600;
+$dark: #0B1B35;
+$grey: #8A898E;
+$violet: #1E0E62;
+$mixgrey:#151439;
+
+
+
+/*components-variables*/
+$container: 1200px;
+
+
+/*size*/
+$fs16: 16px;
+$fs: 18px;
+$fs22: 22px;
+$fs70: 70px;

@@ -1,0 +1,53 @@
+%tptext{
+    font-family:$font-family;
+    text-decoration: none;
+}
+.header{
+    padding: 48px 0 26px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            max-width: 240px;
+            padding: 0 114px 0 0;
+        }
+        .menu {
+            display: flex;
+            list-style: none;
+            gap: 40px;
+        }
+        li {
+            a {
+                @extend %tptext;
+                font-weight: $fwn;
+                font-size: $fs;
+                line-height: 1.6;
+                color: $black;
+                &:hover {
+                    font-weight: $fwi;
+                }
+            }
+        }
+        .text {
+            @extend %tptext;
+            font-weight: $fwn;
+            font-size: $fs;
+            line-height: 1.6;
+            color: $black;
+            margin: 0 10px 0 250px;
+        }
+        .btn_login {
+            @extend %tptext;
+            font-weight: $fwn;
+            font-size: $fs;
+            line-height: 1.6;
+            border-radius: 10px;
+            background: $orange;
+            color: $white;
+            padding: 10px 30px;
+            text-align: center;
+            display: inline-block;
+        }
+    }
+}
